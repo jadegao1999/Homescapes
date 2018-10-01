@@ -1,0 +1,236 @@
+/*
+html, body {
+	min-height: 100%;
+}
+*/
+
+body {
+    background-image: url('../assets/images/background.jpg')
+}
+
+.home {
+  background-image: url('../assets/images/jeremy-bishop-335004.jpg');
+  background-position: center;
+  background-size: cover;
+  font-family:;
+}
+
+header {
+	background: #d2a679;
+/*	padding: 1.5rem; */
+	display: flex;
+	justify-content: space-between;
+    width: 100%;
+}
+
+.title {
+  	font-style: italic;
+  	font-size: 2.75rem;
+	color: #ffffff;
+	font-family:;
+}
+
+        /*START Navigation*/
+
+nav  {
+	font-size: 2rem;
+	font-family: 'Abril Fatface', cursive;
+    padding-top: 80px;
+    text-align: right;
+}
+/*4/2 trying to adjust the spacing between words*/
+nav a:link {
+	color: #fff;
+	font-size: 1.5rem;
+	text-decoration: none;
+	transition: .5s;
+/*	padding-right: 1rem; */
+}
+
+nav a:hover {
+	opacity: 1;
+	color: #663300;
+}
+        /*END Navigation*/
+
+        /*START Links*/
+a:link {
+  color: #c10c40;
+  text-indent: 0;
+  width: auto;
+  height: auto;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: #663300;
+}
+
+a:active {
+  color: #fff0b3;
+}
+
+a:hover {
+	opacity: 1;
+}
+
+      /*END Links*/
+
+p {
+  font-family: 'Trirong', serif;
+  color: #622;
+}
+
+.tagline {
+    color: #fff;
+    font-family: 'Handlee', cursive;
+    font-size: 24px;
+    margin-top: 33%;
+    position: static;
+    text-align: center;
+
+}
+
+
+        /*Blockquotes*/
+blockquote {
+  width: 25%;
+  background: rgba(0,0,0,0.6);
+  padding: 1.5rem;
+  border: 4px double #fff;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  border-radius: 25px;
+    font-family: 'Handlee', cursive;
+}
+
+blockquote a:link {
+  color: #c10c40;
+  text-indent: 0;
+  width: auto;
+  height: auto;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+blockquote a:visited {
+  color: #c10c40;
+}
+
+blockquote a:hover {
+  color: #1a7296;
+}
+
+blockquote a:active {
+  color: #ffcc33;
+}
+
+blockquote a:hover { opacity: 1; }
+
+.story {
+	font-size: 1rem;
+	margin: 0;
+	line-height: 1;
+	color: #c10c40;
+}
+.deck {
+    font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+	margin-top:-20px;
+	line-height: 1;
+	color: #666;
+    text-align: right;
+}
+
+.byline {
+	font-size: 1rem;
+	margin-top: -10px;
+	line-height: 1.15;
+	color: #666;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lead {
+	font-size: 1.35rem;
+	margin-left: 40px;
+	line-height: 1.0;
+	color: #686868;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    width: 90%;
+}
+
+.wedge {
+    margin-left: 40px;
+}
+
+.date {
+	font-size: 1rem;
+	margin-bottom: 10px;
+	line-height: 1;
+	color: #ccff33;
+	font-family: 'Poiret One', cursive;
+}
+
+		/*START Image with caption*/
+figure {
+    display: inline-block;
+}
+
+figure, figcaption {
+    color: #ff9900;
+    font-size: 12px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.logo {
+    display:flex;
+    margin: auto;
+    font-family: 'Monoton', cursive;
+    font-size: 79px;
+    letter-spacing: 3px;
+}
+
+
+.wide {
+    width:95%;
+
+}
+
+		/*END Image with caption*/
+
+		/*START Footer*/
+
+footer {
+    background-color: #fff;
+    border-top: #333 solid 1px;
+    bottom: 0;
+    height: 75px;
+    left: 0;
+    padding-top: 25px;
+/*    position: fixed;*/
+    text-align: center;
+    width: 100%;
+}
+
+.internal {
+    background-color: #fff;
+    bottom: 0;
+    height: 75px;
+    left: 0;
+/*    margin-top: 500px;*/
+    padding-top: 25px;
+    position:inherit;
+    text-align: center;
+    width: 100%;
+}
+        /*END Footer*/
